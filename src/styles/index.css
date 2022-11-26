@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("@/assets/fonts/noto/NotoSans.woff2") format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("@/assets/fonts/noto/NotoSans-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("@/assets/fonts/grotesk/SpaceGrotesk-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-display: swap;
+}
+
+body {
+  font-family: "Noto Sans";
+}
+
+img {
+  user-select: none;
+}
